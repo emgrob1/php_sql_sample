@@ -33,6 +33,30 @@ if ($result->num_rows > 0) {
 $conn->close();
 
 
+// Create database
+// $sql = "CREATE DATABASE class";
+// if ($conn->query($sql) === TRUE) {
+    // echo "Database created successfully";
+// } else {
+    // echo "Error creating database: " . $conn->error;
+// }
+
+
+// sql to create table
+// $sql = "CREATE TABLE rooms (
+// id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+// room_number VARCHAR(30) NOT NULL,
+// type VARCHAR(30) NOT NULL,
+// techer_name VARCHAR(50),
+// reg_date TIMESTAMP
+// )";
+// 
+// if ($conn->query($sql) === TRUE) {
+    // echo "Table MyGuests created successfully";
+// } else {
+    // echo "Error creating table: " . $conn->error;
+// }
+
 // 
 // /* create a prepared statement */
 // if ($stmt = $mysqli->prepare('INSERT INTO data (first_name, last_name, email, subject, message) VALUES (?,?,?,?,?)')) {
